@@ -1,0 +1,15 @@
+[Unit]
+# /etc/systemd/system/gnbsim.service
+Description=GNBSIM service
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+User=gnbsim
+Group=gnbsim
+Type=simple
+# the binary file should be copy to the /usr/local/bin/example 
+ExecStart=/usr/local/bin/example -ip <AMF NGAP listen ip address set above>
+
+[Install]
+WantedBy=multi-user.target
