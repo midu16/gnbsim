@@ -1,6 +1,10 @@
 # gnbsim
 gnbsim is a 5G SA gNB/UE (Rel. 16) simulator for testing 5G System. The project is aimed to understand 5GC more efficiently than just reading 3GPP standard documents.
 
+The badge for all GitHub Action runs on the master branch of ```gnbsim```:
+![badge](https://action-badges.now.sh/midu16/gnbsim)
+![badge](https://action-badges.now.sh/midu16/gnbsim?action=test)
+
 ## Getting Started
 <!--
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
