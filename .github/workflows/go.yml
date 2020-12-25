@@ -29,8 +29,8 @@ jobs:
             dep ensure
         fi
 
-    - name: Test
-      run: make test ./...
+   # - name: Test
+   #   run: make test ./...
 
     - name: Build
       run: make ./...
